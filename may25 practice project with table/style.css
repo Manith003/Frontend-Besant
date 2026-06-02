@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 80%;
+}
+
+#heading {
+    background-color: #2C7A7C;
+    color: white;
+}
+
+th {
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+th:nth-child(3) {
+    color: black;
+}
+
+th:nth-child(4) {
+    color: black;
+}
+
+.complete {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.2vw;
+    font-weight: 900;
+    background-color: #C2E4E5;
+    color: #457376;
+}
+.fullcol{
+    position: relative;
+}
+
+.image{
+position: absolute;
+right: 25px;
+top: 4px;
+background-color: #BD3C27;
+border-radius: 50%;
+border: none;
+padding: 0px 4px;
+padding-top: 4px;
+}
+
+
+.one td input {
+    padding: 8px 10px;
+    width: 100%;
+    background-color: #EAF6F6;
+    border: none;
+}
+
+.two td input {
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+
+}
+
+.three td input {
+    padding: 8px 10px;
+    width: 100%;
+    background-color: #EAF6F6;
+    border: none;
+
+}
+
+.four td input {
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+
+}
+
+.five td input {
+    padding: 8px 10px;
+    width: 100%;
+    background-color: #EAF6F6;
+    border: none;
+
+}
+
+.six td input {
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+
+}

@@ -1,0 +1,178 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        padding: 10px 0;
+        color: white;
+    }
+
+    .signup-form {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+        border-radius:7px;
+        background-color: rgb(52, 42, 42);
+        background-image: url("https://imgs.search.brave.com/dvNTniOdCu9dvKOuQw5b8vEcPzw59xvVSSVVa9cVXw8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcGljanVt/Ym8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9zaWxob3VldHRl/LW9mLXlvdW5nLWJs/b25kZS13aXRoLXNo/b3J0LWhhaXItb24t/b3JhbmdlLWJhY2tn/cm91bmQtZnJlZS1p/bWFnZS5qcGVnP2g9/ODAwJnF1YWxpdHk9/ODA");
+
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    form .in1 {
+        width: 100%;
+    }
+
+    form .in2 {
+        width: 100%;
+    }
+
+    form .in3 {
+        width: 100%;
+        position: relative;
+    }
+
+    .in1 input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .in2 input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .in3 input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    span img {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+        opacity: 0.7;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 0;
+        background-color: #4070F4;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    p {
+        color: white;
+    }
+
+    p span {
+        color: rgba(235, 235, 249, 0.656);
+        cursor: pointer;
+    }
+
+    .line {
+        position: relative;
+        /* background-color: blue; */
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .or::after {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        content: "";
+        height: 1px;
+        width: 100px;
+        opacity: 0.6;
+        background-color: rgb(248, 245, 245);
+    }
+
+    .or::before {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        content: "";
+        height: 1px;
+        width: 100px;
+        opacity: 0.6;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .btn1 {
+        width: 100%;
+        position: relative;
+    }
+
+    .btn1 button {
+        background-color: white;
+        color: black;
+    }
+
+    .btn1 img {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: 13px;
+        bottom: 7px;
+        opacity: 0.7;
+    }
+
+     .btn2 {
+        width: 100%;
+        position: relative;
+    }
+
+    .btn2 button {
+        background-color: white;
+        color: black;
+    }
+
+    .btn2 img {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: 13px;
+        bottom: 7px;
+        opacity: 0.7;
+    }

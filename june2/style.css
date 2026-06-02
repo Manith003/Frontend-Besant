@@ -1,0 +1,240 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    section {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 7fr 3fr;
+    }
+
+    div {
+        background-color: #e6e6e6;
+        position: relative
+    }
+
+    .one {
+        grid-row: 1/7;
+        padding: 20px;
+    }
+
+    .whole-one {
+        height: 100%;
+        border-right: 1px solid rgba(0, 0, 0, 0.767);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .left-one {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .left-one h2 {
+        font-weight: 100;
+        font-size: 1.7vw;
+    }
+
+    .left-two {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .left-two h2 {
+        font-weight: 100;
+        font-size: 1.3vw;
+    }
+
+    .subscribe {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .subscribe span {
+        height: 13px;
+        width: 13px;
+        background-color: black;
+    }
+
+    .two {
+        grid-row: 1/2;
+        padding: 20px;
+    }
+
+    .center-part1 h1 {
+        font-size: 11vw;
+        text-align: center;
+        hyphens: auto;
+        font-weight: 800;
+    }
+
+    .center-part2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .left1 {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left1 h4 {
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+
+    .left1 span {
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: black;
+    }
+
+    .right2 h4 {
+        font-size: 1.2vw;
+        font-weight: 200;
+    }
+
+    .three {
+        grid-row: 1/7;
+        padding: 20px;
+    }
+
+    .four {
+        grid-row: 2/7;
+        padding: 0 30px;
+        display: flex;
+        position: relative;
+    }
+
+    .left-four {
+        width: 50%;
+        padding: 15px 0;
+    }
+
+    .left-four::after {
+        position: absolute;
+        content: "";
+        width: 93%;
+        height: 1px;
+        top: -0.1%;
+        background-color: #000000;
+    }
+
+    .left-four-content h1 {
+        font-weight: 200;
+    }
+
+    .right-four {
+        height: 100%;
+        width: 70%;
+        background-color: rgb(51, 51, 65);
+    }
+
+    .right-four::after {
+        position: absolute;
+        content: "";
+        width: 95.5%;
+        height: 1px;
+        top: -0.1%;
+        right: 0px;
+        background-color: #000000;
+    }
+
+    .left-four-content {
+        border-right: 1px solid black;
+        height: 100%;
+        position: relative;
+    }
+
+    .left-four-content h1 {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-80%, 0);
+    }
+
+    .right-four-one {
+        height: 250px;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .right-four-two {
+        padding: 0px 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .right-four-two h2 {
+        line-height: 0.5;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+
+    .right-four-three {
+        width: 100%;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-four-four {
+        padding: 5px 10px;
+        width: 100%;
+    }
+    
+    .right-four-four h2 {
+        text-align: left;
+        font-weight: 200;
+        font-size: 1.4vw;
+        padding-bottom: 70px;
+    }
+
+      .right-four-four::before {
+        position: absolute;
+        content: "";
+        width: 95.5%;
+        height: 1px;
+        bottom: 1%;
+        right: 0px;
+        background-color: #000000;
+    }
+
+    .right-four-one img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .right-four-five{
+        padding: 10px;
+        text-align: right;
+    }
+
+      .right-four-five h2{
+        font-weight: 200;
+        font-size: 2vw;
+      }
