@@ -205,7 +205,7 @@
         padding: 5px 10px;
         width: 100%;
     }
-    
+
     .right-four-four h2 {
         text-align: left;
         font-weight: 200;
@@ -213,7 +213,7 @@
         padding-bottom: 70px;
     }
 
-      .right-four-four::before {
+    .right-four-four::before {
         position: absolute;
         content: "";
         width: 95.5%;
@@ -229,12 +229,119 @@
         object-fit: cover;
     }
 
-    .right-four-five{
+    .right-four-five {
         padding: 10px;
         text-align: right;
     }
 
-      .right-four-five h2{
+    .right-four-five h2 {
         font-weight: 200;
         font-size: 2vw;
-      }
+    }
+
+    .three {
+        /* background-color: red; */
+        padding: 20px;
+    }
+
+    .three-main-dev {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        width: 106%;
+        height: 100%;
+    }
+
+    .black-div {
+        position: relative;
+    }
+
+    .black-div .black-color {
+        width: 100%;
+        padding: 20px;
+        background-color: black;
+    }
+
+    .dot-span {
+        position: absolute;
+        height: 13px;
+        width: 13px;
+        top: 50%;
+        right: 1%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .feature-article-div {
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 142px 20px 0px 20px;
+    }
+
+    .dot-span2 {
+        position: absolute;
+        height: 13px;
+        width: 13px;
+        top: 50%;
+        left: -25%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .article-content {
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+
+    .see-all-h2 {
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+
+    .feature-article-div::before {
+        position: absolute;
+        content: "";
+        width: 90%;
+        height: 1px;
+        background-color: black;
+        bottom: -15%;
+    }
+
+    .main-content1 {
+        margin-top: 27px;
+        padding: 20px;
+    }
+
+    .top {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .numberone {
+        font-size: 5vw;
+    }
+
+    .date h4 {
+        font-size: 1.2vw;
+        font-weight: 200;
+    }
+
+    .middle-h2-one{
+        padding-top: 20px;
+        font-weight: 200;
+        font-size: 2vw;
+        letter-spacing: -2px;
+        line-height: 0.3;
+    }
+
+    .last{
+        margin-top: 20px;
+    }
+    .last p{
+        font-weight: 200;
+        font-size: 1.2vw;
+    }
