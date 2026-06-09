@@ -32,7 +32,7 @@ header {
 .rightnav .one {
     cursor: pointer;
     font-size: 1.3vw;
-    font-weight: 200;
+    font-weight: 900;
     color: white;
 }
 
@@ -43,12 +43,17 @@ header {
     border-radius: 5px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .dropdown {
     position: relative;
 }
-.main-menu{
-    /* background-color: red; */
-}
+
+/* .main-menu{
+    background-color: red;
+} */
 
 .moredemo-submenu {
     position: absolute;
@@ -73,4 +78,34 @@ header {
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
+}
+
+@media (max-width: 511px) {
+    header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .leftnav img {
+        width: 27px;
+    }
+
+    .rightnav .one {
+        display: none;
+    }
+
+    .rightnav .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger img {
+        width: 25px;
+    }
+}
+
+.Hero{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
 }
