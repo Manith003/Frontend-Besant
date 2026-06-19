@@ -302,7 +302,7 @@ h3 {
     }
 
     .imgdiv img {
-        width: 70px;
+        width: 50px;
     }
 
     h3 {
@@ -629,6 +629,7 @@ h3 {
 
 .contact-us-conntent-h2 {
     font-size: 4vw;
+    color: #0A193B;
 }
 
 .contact-us-conntent-p {
@@ -642,7 +643,7 @@ h3 {
     width: 35%;
     height: 5px;
     left: -50px;
-    background-color: black;
+    background-color: #0A193B;
     margin: 0.8rem 0;
 }
 
@@ -677,6 +678,53 @@ h3 {
     justify-content: center;
 }
 
+@media (max-width: 512px) {
+    .contact-us {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .contact-us-left {
+        width: 100%;
+    }
+
+    .card1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+     .card2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+     .card3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cardtitle{
+        gap: 20px;
+    }
+    .card-p{
+        font-size: 3vw;
+    }
+
+    
+.contact-us-right{
+width: 100%;
+}
+
+.contact-us-conntent-h2{
+    font-size: 8vw;
+}
+.contact-us-conntent-p{
+    font-size: 2.6vw;
+    line-height: 2;
+}
+}
+
+
 footer {
     padding: 4rem 10rem;
     display: flex;
@@ -705,7 +753,7 @@ footer {
     opacity: 0.4;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
 }
 
@@ -723,4 +771,23 @@ footer {
 
 .icons-img {
     width: 30px;
+}
+
+@media (max-width:512px){
+    footer{
+        padding: 4rem 20px;
+    }
+    .footer-nav{
+        margin-top: 3vw;
+        font-size: 2.5vw;
+    }
+    .footer-p{
+        width: 100%;
+        text-align: center;
+        font-weight: 100;
+    }
+    .footer-icons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
