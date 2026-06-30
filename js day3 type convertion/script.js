@@ -8,6 +8,8 @@
 // console.log(typeof(name))
 // console.log(Number(name))
 
+// ----> converting stringnumber that is ('123') to Number is possible, but pure string ('hello ') not possible
+
 // --------->
 
 let a =123.123
